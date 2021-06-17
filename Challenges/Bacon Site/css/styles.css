@@ -1,0 +1,31 @@
+/****** TAGS ******/
+h1 {
+    color: red;
+}
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+p {
+    font: 16px system-ui;
+}
+
+/****** CLASS ******/
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+/****** ID ******/
+#heading {
+    color: blue;
+}
