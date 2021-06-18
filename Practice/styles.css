@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(219, 196, 255);
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: solid;
+    border-width: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    position: relative;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+    position: relative;
+}
+
+.mini {
+    height: 50px;
+    width: 50px;
+    background-color: lightslategray;
+    position: absolute;
+    right: 50px;
+}
