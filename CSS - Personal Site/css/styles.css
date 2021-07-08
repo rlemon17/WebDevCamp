@@ -41,6 +41,19 @@ a:hover {
     color: #bce4ff;
 }
 
+.navBar {
+    background-color: #129bd6;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    height: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    position: fixed;
+    text-align: right;
+    width: 100%;
+}
+
 .intro {
     color: #129bd6;
     padding: 0;

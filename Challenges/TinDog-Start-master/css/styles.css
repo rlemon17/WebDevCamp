@@ -1,0 +1,174 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7% 15%;
+}
+
+.phoneImg {
+    max-width: 60%;
+    position: absolute;
+    transform: rotate(20deg);
+    right: 30%;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Header */
+.h-title {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Download Buttons */
+.dBtn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features */
+.featIcon {
+    font-size: 4rem;
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+
+.featIcon:hover {
+    color: #ff4c68;
+}
+
+.feat-item {
+    padding: 40px;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+.testImg {
+    border-radius: 100%;
+    margin: 1rem;
+    width: 10%;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.pressImg {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Query */
+
+@media (max-width: 1028px) {
+    .phoneImg {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* Footer Sections */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 5rem;
+    text-align: center;
+}
+
+.cBtn {
+    margin: 3rem 1.5rem 2rem;
+}
+
+.c-h1 {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.f-icon {
+    padding: 1rem;
+}
