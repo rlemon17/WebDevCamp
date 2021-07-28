@@ -1,0 +1,73 @@
+<%- include("header") -%>
+
+<h1 id="title">Lemon's Pokedex</h1>
+<h1 id="name"><%=name%></h1>
+<img id="sprite" src=<%=imgUrl%>>
+
+<!-- Bootstrap Layout to Center -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-1">
+            <p class="hp">HP:</p>
+        </div>
+        <div class="col-2">
+            <span class="box hp"><%=hp%></span>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-1">
+            <p class="atk">ATK:</p>
+        </div>
+        <div class="col-2">
+            <span class="box atk"><%=atk%></span>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-1">
+            <p class="def">DEF:</p>
+        </div>
+        <div class="col-2">
+            <span class="box def"><%=def%></span>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-1">
+            <p class="spatk">SP. ATK:</p>
+        </div>
+        <div class="col-2">
+            <span class="box spatk"><%=spatk%></span>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-1">
+            <p class="spdef">SP. DEF:</p>
+        </div>
+        <div class="col-2">
+            <span class="box spdef"><%=spdef%></span>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-1">
+            <p class="spd">SPEED:</p>
+        </div>
+        <div class="col-2">
+            <span class="box spd"><%=spd%></span>
+        </div>
+    </div>
+
+</div>
+
+<form action="/" method="post">
+    <div class="form-group under-stats">
+        <label>Pokemon Name or Pokedex Number</label>
+        <input type="text" class="form-control" name="pokeName" autocomplete="off" pattern="[a-zA-Z0-9]+"> 
+        <button type="submit" class="btn btn-primary">Search Again</button>
+    </div> 
+</form>
+
+<%- include("footer") -%>
