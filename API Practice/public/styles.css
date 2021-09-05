@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     color: white;
     font-family: 'Tourney', cursive;
     text-align: center;
@@ -11,11 +11,17 @@ button {
 
 input {
     max-width: 10%;
+    min-width: 8rem;
     margin: auto;
 }
 
-p {
+.container p {
     text-align: left;
+}
+
+#dexEntry {
+    color: rgb(163, 163, 163);
+    padding: 3rem 1rem;
 }
 
 #name {
@@ -23,6 +29,7 @@ p {
 }
 
 #sprite {
+    height: 15rem;
     padding: 0 0 1rem;
 }
 
@@ -33,6 +40,10 @@ p {
 #title {
     font-family: 'Press Start 2P', cursive;
     padding: 5rem 0 1rem;
+}
+
+#type {
+    color: rgb(163, 163, 163);
 }
 
 .box {
@@ -97,6 +108,17 @@ p {
 .box.spd {
     background-color: rgb(255, 122, 144);
     color: white;
+}
+
+.formButton {
+    background-color: rgb(13, 137, 253);
+    color: white;
+    margin: 1rem 1rem 2rem;
+    max-width: fit-content;
+}
+
+.formForm {
+    display: inline-block;
 }
 
 .under-stats {

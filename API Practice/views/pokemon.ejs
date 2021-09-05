@@ -2,7 +2,27 @@
 
 <h1 id="title">Lemon's Pokedex</h1>
 <h1 id="name"><%=name%></h1>
-<img id="sprite" src=<%=imgUrl%>>
+<h5 id="type"><%=types%></h5>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-3">
+            <img id="sprite" src=<%=imgUrl%>>
+        </div>
+        <div class="col-lg-5">
+            <p id="dexEntry"><%=dexEntry%></p>
+        </div>
+    </div>
+</div>
+
+<!-- Give links to other forms, if any -->
+<% if (hasForms) { %>
+    <% formsList.forEach((form) => { %>
+        <form class="formForm" action="/" method="post">
+            <input class="formButton" type="submit" name="pokeName" value=<%=form.pokemon.name%>></input>
+        </form>
+    <% }) %>
+<% } %>
 
 <!-- Bootstrap Layout to Center -->
 <div class="container">
@@ -62,7 +82,7 @@
 
 </div>
 
-<form action="/" method="post">
+<form action="/pokemon" method="post">
     <div class="form-group under-stats">
         <label>Pokemon Name or Pokedex Number</label>
         <input type="text" class="form-control" name="pokeName" autocomplete="off" pattern="[a-zA-Z0-9]+"> 
